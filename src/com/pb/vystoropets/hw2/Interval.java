@@ -7,7 +7,7 @@ public class Interval {
         try {
             Scanner scan = new Scanner(System.in);
             int number;
-            System.out.println("Введите значения целого числа");
+            System.out.println("Введите значение целого числа");
             number = scan.nextInt();
             if (number >= 0 && number <= 14)
             {

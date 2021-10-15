@@ -9,11 +9,11 @@ public class Calculator {
         int operand2;
         int result = 0;
         char operation;
-        System.out.println("Ввидите число 1:");
+        System.out.println("Введите число 1:");
         operand1 = scan.nextInt();
-        System.out.println("Ввидите операцию:");
+        System.out.println("Введите операцию:");
         operation = scan.next().charAt(0);
-        System.out.println("Ввидите число 2:");
+        System.out.println("Введите число 2:");
         operand2 = scan.nextInt();
 
         switch (operation) {
@@ -30,7 +30,7 @@ public class Calculator {
                 result = operand1 / operand2;
             }
                 break;
-            default:  System.out.println("Упс! Что-то пошло не так");
+            default:  System.out.println("Ошибка");
                 return;
         }
         System.out.println("Итог" + result);
